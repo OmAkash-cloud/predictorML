@@ -1,0 +1,14 @@
+I built a simple machine learning project that predicts whether a student will pass or fail an exam based on a few everyday habits and background data. 
+The idea came from a very common thought we’ve all had: "Will I pass this exam?" or "If a student studies this much is it enough to succeed?" Instead of 
+leaving it to guesswork I wanted to train a machine to answer that question using actual data.
+The project takes into account factors that are usually important for student success like how many hours a student studies, their class attendance, 
+their previous exam scores, how much they sleep and whether or not they take extra tutoring. I manually created a small dataset with this information and
+labeled each student as either pass or fail. Using this I trained a logistic regression model which is a simple but powerful algorithm that's great 
+for predicting two outcomes like yes or no or pass or fail.
+Once the model was trained I tested it with new student data to see how accurately it could make predictions.
+For example if I enter that a student studies 4 hours sleeps 6 hours and has 85 percent attendance the model can predict whether that student is likely to pass the exam.
+What’s really interesting is watching how the machine starts identifying patterns from the data like students who attend regularly and have had good scores in the past usually end up passing.
+
+Through this project I learned the fundamentals of data preprocessing model training prediction and evaluation.
+I also visualized the data using Seaborn to understand how different features are related to the student’s success. This was a fun and eye-opening introduction to machine learning and it made me more confident to explore bigger projects in the future.
+
